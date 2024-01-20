@@ -1,0 +1,22 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+  
+  .skill-card img,.skill-card{
+    height: 4rem;
+    width: 5rem;
+  }
+  .skill-card{
+    margin: 0.5rem;
+  }
+
+  @media only screen and (max-width: 600px)  {
+    .example-card {
+      margin: 1rem;
+    }
+  }

@@ -1,0 +1,72 @@
+<div class="main-section">
+  <div fxLayout="row" class="bg-color">
+    <div fxFlex="20"></div>
+    <div fxFlex="60">
+      <div fxLayout.gt-sm="row" fxLayout.lt-md="column" fxLayoutAlign="center center">
+        <div fxFlex.gt-sm="50" fxFlex.lt-md="50" fxLayoutAlign="center center">
+          <div class="homepage_image container" alt="developer_image"></div>
+        </div>
+        <div fxFlex.gt-sm="50" fxFlex.lt-md="50">
+          <p>Hi I'm</p>
+          <p>Naveenchandra Naik</p>
+          <p>Welcome to my Profile</p>
+          <div class="button">
+            <button mat-raised-button (click)="downloadPdf()">Download CV <mat-icon>open_in_new</mat-icon></button>&nbsp;
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div fxFlex="20"></div>
+  </div>
+  <div fxLayout.gt-sm="row" fxLayout.lt-md="column" fxLayoutAlign="center center" class="contact_bg" id="contact">
+    <div fxFlex="10"></div>
+    <div fxFlex="40">
+      <div fxLayout="column" class="contact">
+        <div fxFlex="10">
+          <div class="bg-color">Contact Me</div>
+        </div>
+        <div fxFlex="30">
+          <h4>How to contact</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi error dignissimos eos,
+            commodi optio repellat? Optio, rem, fuga iure vel provident facilis neque laudantium odit deleniti aliquam
+            repudiandae inventore adipisci!
+          </p>
+        </div>
+        <div fxFlex="30">
+          <i class="fa-brands fa-square-google-plus"></i> ncnaik131@gmail.com <br>
+          <i class="fa-brands fa-square-whatsapp" style="color: #63E6BE;"></i> 8660805146
+        </div>
+        <div fxFlex="30"></div>
+      </div>
+    </div>
+    <div fxFlex="40">
+      <div class="row" class="contact_mobview">
+        <div fxFlex.gt-sm="20" fxFlex.lt-md="5"></div>
+        <div fxFlex.gt-sm="60" fxFlex.lt-md="90">
+          <mat-form-field class="full-width">
+            <mat-label>Enter your name</mat-label>
+            <input matInput>
+          </mat-form-field>
+          <mat-form-field class="full-width">
+            <mat-label>Enter your Subject</mat-label>
+            <input matInput>
+          </mat-form-field>
+          <mat-form-field class="full-width">
+            <mat-label> Enter your mail id</mat-label>
+            <input matInput>
+          </mat-form-field>
+          <mat-form-field class="full-width">
+            <mat-label>Enter Your Message</mat-label>
+            <textarea matInput></textarea>
+          </mat-form-field>
+          <div>
+            <button mat-raised-button color="primary">Submit</button>
+          </div>
+        </div>
+        <div fxFlex.gt-sm="20" fxFlex.lt-md="5"></div>
+      </div>
+    </div>
+    <div fxFlex="10"></div>
+  </div>
+</div>

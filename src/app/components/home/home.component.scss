@@ -1,0 +1,46 @@
+.bg-color {
+    // background-color: #BFBFF7;
+    // height: 60vh;
+    // color: #fff;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.example-card {
+    max-width: 500px;
+    margin-bottom: 8px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-radius: 10px;
+}
+
+.homepage_image {
+    display: block;
+    min-height: 650px;
+    // Using relative path
+    background: url('../../../assets/image/developer-pic.jpg') no-repeat center;
+    width: 43rem;
+}
+
+.contact_bg{
+    // display: block;
+    min-height: 570px;
+    // Using relative path
+    background: url('../../../assets/image/contact.png') no-repeat center;
+}
+
+.full-width{
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px)  {
+    // .full-width{
+    //     width: auto;
+    // }
+    .contact{
+        padding: 2rem;
+    }
+    .button{
+        display: flex;
+        padding: 1rem;
+    }
+}

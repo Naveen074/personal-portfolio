@@ -1,0 +1,28 @@
+<mat-toolbar>
+    <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+    </button> -->
+    <!-- <span class="example-spacer"></span> -->
+
+    <div class="nav-link" routerLink="home">Home</div>
+
+    <div class="nav-link" routerLink="about">About Me</div>
+
+    <div class="nav-link" routerLink="project">Project</div>
+
+    <span class="example-spacer"></span>
+ <!-- <div class="icon-section">
+    <i class="fa-brands fa-linkedin" style="color: #251bb1;"></i>
+    <i class="fa-brands fa-facebook" style="color: #251bb1;"></i>
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-twitter" style="color: #74C0FC;"></i>
+    <i class="fa-brands fa-square-google-plus" style="color: #b0272d;"></i>
+    <mat-slide-toggle [formControl]="switchTheme"></mat-slide-toggle>
+</div> -->
+    <!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+    </button> -->
+</mat-toolbar>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>

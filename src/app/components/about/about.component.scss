@@ -1,0 +1,28 @@
+.about_title{
+    font-weight: 500;
+    margin: 15px 0px;
+    font-size: 24px;
+
+}
+.bio_card{
+    margin: 3rem;
+}
+.skillset_card{
+    margin:0.5rem;
+}
+
+@media only screen and (max-width: 600px)  {
+    .bio_card,.biography{
+        margin: 1rem;
+    }
+    .mob_margin{
+        margin: 15px 10px;
+    }
+
+    .mob_qualification{
+        justify-content: center !important;
+    }
+    .mob_qualification mat-icon{
+        padding:0px 5px;
+    }
+}
